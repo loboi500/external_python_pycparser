@@ -1,19 +1,3 @@
-name: "pycparser"
-description: "pycparser is a parser for the C language, written in pure Python. It is a module designed to be easily integrated into applications that need to parse C source code."
-third_party {
-  url {
-    type: HOMEPAGE
-    value: "https://github.com/eliben/pycparser"
-  }
-  url {
-    type: GIT
-    value: "https://github.com/eliben/pycparser"
-  }
-  version: "release_v2.20"
-  license_type: NOTICE
-  last_upgrade_date {
-    year: 2020
-    month: 3
-    day: 4
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ceb83c18ade9765e2869c126c3c657e186ae868a73fa362e43f75954d0b1f106
+size 485

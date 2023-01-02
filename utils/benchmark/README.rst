@@ -1,22 +1,3 @@
-Basic benchmarking of parsing speed with pycparser.
-
-The ``inputs`` directory contains preprocessed files taken from open source
-projects.
-
-``redis.c.pp`` taken from Redis. Generated with:
-
-.. sourcecode::
-
-   gcc -nostdinc -D'__attribute__(x)=' -E -Isrc/ -Ideps/hiredis -Ideps/linenoise -I$HOME/eli/pycparser/utils/fake_libc_include src/redis-cli.c
-
-``tccgen.c.pp`` taken from TCC. Generated with:
-
-.. sourcecode::
-
-   gcc -nostdinc -D'__attribute__(x)=' -E -I.  -I$HOME/eli/pycparser/utils/fake_libc_include tccgen.c
-
-``sqlite-btree.c.pp`` taken from SQLite. Generated with:
-
-.. sourcecode::
-
-   gcc -nostdinc -D'__attribute__(x)=' -E -I. -Isrc/ -I$HOME/eli/pycparser/utils/fake_libc_include src/btree.c
+version https://git-lfs.github.com/spec/v1
+oid sha256:5e58cc7bc531084f5daab0979fd022dc893cb69a416467fcaff0c2114fa1dd7e
+size 706

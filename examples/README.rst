@@ -1,8 +1,3 @@
-Run these examples from the root directory of pycparser.
-
-Please note that most realistic C code samples would require running the C
-preprocessor before passing the code to **pycparser**; see the `README file
-<https://github.com/eliben/pycparser/blob/master/README.rst>`_ and
-`this blog post
-<https://eli.thegreenplace.net/2015/on-parsing-c-type-declarations-and-fake-headers>`_
-more details.
+version https://git-lfs.github.com/spec/v1
+oid sha256:4638058a2946d16fa0d2e7a6ccfae7f841135e0bfe48b58fa7654c4190d26b7a
+size 393

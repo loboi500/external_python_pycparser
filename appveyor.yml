@@ -1,12 +1,3 @@
-environment:
-
-  matrix:
-    - PYTHON: "C:\\Python27"
-    - PYTHON: "C:\\Python35"
-    - PYTHON: "C:\\Python36"
-    - PYTHON: "C:\\Python37"
-
-build: off
-
-test_script:
-  - "%PYTHON%\\python.exe tests\\all_tests.py"
+version https://git-lfs.github.com/spec/v1
+oid sha256:b409c87b50fbd21e7d7626571105edd2e9e6291332a641f66ba9c8117020895e
+size 213

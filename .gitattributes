@@ -1,2 +1,19 @@
 *.ppout linguist-vendored=true
-
+tox.ini filter=lfs diff=lfs merge=lfs -text
+_clean_tables.py filter=lfs diff=lfs merge=lfs -text
+CONTRIBUTORS filter=lfs diff=lfs merge=lfs -text
+examples filter=lfs diff=lfs merge=lfs -text
+LICENSE filter=lfs diff=lfs merge=lfs -text
+CHANGES filter=lfs diff=lfs merge=lfs -text
+MODULE_LICENSE_MIT filter=lfs diff=lfs merge=lfs -text
+README.rst filter=lfs diff=lfs merge=lfs -text
+setup.cfg filter=lfs diff=lfs merge=lfs -text
+setup.py filter=lfs diff=lfs merge=lfs -text
+utils filter=lfs diff=lfs merge=lfs -text
+appveyor.yml filter=lfs diff=lfs merge=lfs -text
+MANIFEST.in filter=lfs diff=lfs merge=lfs -text
+METADATA filter=lfs diff=lfs merge=lfs -text
+pycparser filter=lfs diff=lfs merge=lfs -text
+Android.bp filter=lfs diff=lfs merge=lfs -text
+tests filter=lfs diff=lfs merge=lfs -text
+TODO.txt filter=lfs diff=lfs merge=lfs -text
